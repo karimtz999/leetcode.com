@@ -35,6 +35,7 @@ bool predictTheWinner(int* nums, int numsSize) {
      * Fill the table for lengths = 2, 3, ..., up to numsSize.
      * ------------------------------------------------------------------------
      */
+    
 
     /* ------------------------------------------------------------------------
      * FINAL RESULT
