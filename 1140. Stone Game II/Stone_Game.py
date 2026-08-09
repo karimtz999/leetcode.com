@@ -12,6 +12,7 @@ class Solution:
         prefix_sum = list(accumulate(piles, initial=0))
 
         @cache
+        
         def dp(start_index: int, max_take: int) -> int:
             """
             Maximum stones the current player can obtain
