@@ -3,7 +3,8 @@ class Solution:
         from functools import cache
         from itertools import accumulate
         from typing import List
-      
+
+        
         @cache
         def dp(start_index: int, max_take: int) -> int:
             """
