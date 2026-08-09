@@ -1,6 +1,7 @@
 #include <stdbool.h> // Header for C boolean type (true/false)
 #include <stdio.h>   // Header for standard input/output (printf)
 
+
 /**
  * Predicts if Player 1 can win the game given optimal play by both players.
  * 

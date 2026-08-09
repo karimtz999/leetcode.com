@@ -1,6 +1,4 @@
 from itertools import count
-
-
 class Solution:
     def smallestNumber(self, n: int, t: int) -> int:
         """
@@ -18,6 +16,7 @@ class Solution:
             # If divisible by t, return the number
             if digit_product % t == 0:
                 return candidate
+
 
 
 def main():

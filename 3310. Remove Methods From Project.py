@@ -3,7 +3,6 @@ class Solution:
         self, n: int, k: int, invocations: List[List[int]]) -> List[int]:
         directed_graph = [[] for _ in range(n)]
         undirected_graph = [[] for _ in range(n)]
-      
         for caller, callee in invocations:
             directed_graph[caller].append(callee)
             undirected_graph[caller].append(callee)
