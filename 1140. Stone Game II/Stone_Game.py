@@ -16,6 +16,7 @@ class Solution:
 
         def dp(start_index: int, max_take: int) -> int:
             """
+            
             Maximum stones the current player can obtain
             starting at start_index with M = max_take.
             """
@@ -25,7 +26,7 @@ class Solution:
                 return prefix_sum[total_piles] - prefix_sum[start_index]
 
             max_stones = 0
-            
+
 
             # Try taking x piles.
             for num_piles_to_take in range(1, 2 * max_take + 1):
