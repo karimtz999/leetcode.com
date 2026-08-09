@@ -42,6 +42,5 @@ class Solution:
 
                 max_stones = max(max_stones, stones_obtained)
 
-            return max_stones
-
+            return max_stoness
         return dp(0, 1)
