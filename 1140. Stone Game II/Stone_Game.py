@@ -2,7 +2,6 @@ from typing import List
 from functools import cache
 from itertools import accumulate
 
-
 class Solution:
     def stoneGameII(self, piles: List[int]) -> int:
 
