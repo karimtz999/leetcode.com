@@ -19,7 +19,6 @@ class Solution:
             starting at start_index with M = max_take.
             """
 
-
             # If we can take all remaining piles, take them all.
             if max_take * 2 >= total_piles - start_index:
                 return prefix_sum[total_piles] - prefix_sum[start_index]
