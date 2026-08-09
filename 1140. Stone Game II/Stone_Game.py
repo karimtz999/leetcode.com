@@ -12,7 +12,7 @@ class Solution:
         prefix_sum = list(accumulate(piles, initial=0))
 
         @cache
-        
+
 
         def dp(start_index: int, max_take: int) -> int:
             """
@@ -25,6 +25,7 @@ class Solution:
                 return prefix_sum[total_piles] - prefix_sum[start_index]
 
             max_stones = 0
+            
 
             # Try taking x piles.
             for num_piles_to_take in range(1, 2 * max_take + 1):
