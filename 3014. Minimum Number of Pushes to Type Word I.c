@@ -8,6 +8,7 @@ int cmp(const void *a, const void *b) {
     return *(int*)b - *(int*)a; // descending order
 }
 
+
 int minimumPushes(const char *word) {
     int ans = 0;
     int count[26] = {0};
