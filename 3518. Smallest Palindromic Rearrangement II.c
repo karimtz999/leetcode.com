@@ -14,6 +14,7 @@ static long long nCk(int n, int k) {
             return MAX_LIMIT;
         }
     }
+    
     return res;
 }
 
