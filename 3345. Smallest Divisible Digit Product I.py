@@ -8,6 +8,7 @@ class Solution:
 
         
         
+        
         # Check every number starting from n
         for candidate in count(n):
 
