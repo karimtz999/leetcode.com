@@ -8,6 +8,7 @@ class Solution:
             undirected_graph[caller].append(callee)
             undirected_graph[callee].append(caller)
             is_suspicious = [False] * n
+            
 
             
         def mark_suspicious_methods(method_id: int) -> None:
