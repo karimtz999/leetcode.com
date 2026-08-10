@@ -3,7 +3,6 @@ class Solution:
     def smallestNumber(self, n: int, t: int) -> int:
 
         
-        
         # Check every number starting from n
         for candidate in count(n):
 
