@@ -3,12 +3,6 @@ class Solution:
     def smallestNumber(self, n: int, t: int) -> int:
 
         
-        """
-        Find the smallest number >= n whose digit product is divisible by t.
-        """
-
-        
-        
         
         # Check every number starting from n
         for candidate in count(n):
