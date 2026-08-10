@@ -19,7 +19,8 @@ class Solution:
             for next_method in directed_graph[method_id]:
                 if not is_suspicious[next_method]:
                     mark_suspicious_methods(next_method)
-      
+
+            
         mark_suspicious_methods(k)
         visited = [False] * n
       
