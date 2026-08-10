@@ -27,6 +27,7 @@ int minimumPushes(const char *word) {
         ans += count[i] * (i / 8 + 1);
     }
 
+    
     return ans;
 }
 
