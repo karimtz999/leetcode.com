@@ -18,6 +18,7 @@ static long long nCk(int n, int k) {
     return res;
 }
 
+
 // Calculates total permutations using multinomial coefficient logic
 static long long countArrangements(int halfCount[26]) {
     int total = 0;
