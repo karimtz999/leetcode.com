@@ -1,6 +1,7 @@
 from itertools import count
 class Solution:
     def smallestNumber(self, n: int, t: int) -> int:
+        
         """
         Find the smallest number >= n whose digit product is divisible by t.
         """
