@@ -6,7 +6,6 @@ class Solution:
     def maxSubarrayLength(self, nums: List[int], k: int) -> int:
         # Dictionary to track frequency of each element in current window
         frequency_map = defaultdict(int)
-      
         # Initialize result and left pointer of sliding window
         max_length = 0
         left = 0
