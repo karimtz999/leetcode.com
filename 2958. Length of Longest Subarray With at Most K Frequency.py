@@ -2,7 +2,6 @@ from typing import List
 from collections import defaultdict
 
 
-
 class Solution:
     def maxSubarrayLength(self, nums: List[int], k: int) -> int:
         # Dictionary to track frequency of each element in current window
