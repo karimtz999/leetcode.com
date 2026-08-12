@@ -24,7 +24,6 @@ class Solution:
             # Update maximum length found so far
             # Window size is (right - left + 1)
             max_length = max(max_length, right - left + 1)
-
         
         return max_length
         
