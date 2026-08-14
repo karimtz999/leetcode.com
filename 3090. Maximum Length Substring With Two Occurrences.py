@@ -17,6 +17,7 @@ class Solution:
         for right, char in enumerate(s):
             # Add current character to window
             char_count[char] += 1
+            
           
             # Shrink window from left while any character appears more than twice
             while char_count[char] > 2:
