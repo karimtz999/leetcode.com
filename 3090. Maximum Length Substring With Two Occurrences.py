@@ -3,6 +3,7 @@ from collections import Counter
 class Solution:
     
     def maximumLengthSubstring(self, s: str) -> int:
+        
         # Dictionary to track character frequencies in current window
         char_count = Counter()
       
