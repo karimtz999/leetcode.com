@@ -20,6 +20,7 @@ class Solution:
             
           
             # Shrink window from left while any character appears more than twice
+            
             while char_count[char] > 2:
                 char_count[s[left]] -= 1
                 left += 1
