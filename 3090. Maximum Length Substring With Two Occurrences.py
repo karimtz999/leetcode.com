@@ -10,6 +10,7 @@ class Solution:
         # Initialize result and left pointer of sliding window
         max_length = 0
         left = 0
+        
       
         # Iterate through string with right pointer
         for right, char in enumerate(s):
