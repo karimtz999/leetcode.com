@@ -14,6 +14,7 @@ class Solution:
       
         # Iterate through string with right pointer
         
+        
         for right, char in enumerate(s):
             # Add current character to window
             char_count[char] += 1
