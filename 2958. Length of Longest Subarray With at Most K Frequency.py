@@ -17,6 +17,7 @@ class Solution:
             # Add current element to window by incrementing its frequency
             frequency_map[current_num] += 1
 
+
             
             # Shrink window from left while current element's frequency exceeds k
             while frequency_map[current_num] > k:
