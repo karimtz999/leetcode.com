@@ -10,6 +10,7 @@ class Solution:
         left = 0
 
         
+        
         # Iterate through array with right pointer
         for right, current_num in enumerate(nums):
             # Add current element to window by incrementing its frequency
