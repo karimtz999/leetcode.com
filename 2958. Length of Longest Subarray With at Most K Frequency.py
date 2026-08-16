@@ -8,6 +8,7 @@ class Solution:
         # Initialize result and left pointer of sliding window
         max_length = 0
         left = 0
+
         
         # Iterate through array with right pointer
         for right, current_num in enumerate(nums):
