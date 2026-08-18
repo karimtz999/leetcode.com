@@ -16,8 +16,7 @@ class Solution:
             # Find all values with frequency 1 and return the maximum
             unique_values = (value for value, count in frequency_map.items() if count == 1)
             return max(unique_values, default=-1)
-      
-        # Special case 2: When k equals array length, return the maximum value
+
         if k == len(nums):
             return max(nums)
 
