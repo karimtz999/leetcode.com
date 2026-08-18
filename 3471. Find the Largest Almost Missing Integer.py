@@ -20,9 +20,7 @@ class Solution:
         # Special case 2: When k equals array length, return the maximum value
         if k == len(nums):
             return max(nums)
-      
-        # General case: Check both boundaries (first and last positions)
-        # Return the maximum of unique values at boundaries
+
         first_position_value = find_unique_boundary_value(0)
         last_position_value = find_unique_boundary_value(len(nums) - 1)
         return max(first_position_value, last_position_value)
