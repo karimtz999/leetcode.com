@@ -3,7 +3,6 @@ class Solution:
       
         def find_unique_boundary_value(position: int) -> int:
 
-            # Check if this value appears elsewhere in the array
             for index, value in enumerate(nums):
                 if index != position and value == nums[position]:
                     return -1  # Value is not unique
