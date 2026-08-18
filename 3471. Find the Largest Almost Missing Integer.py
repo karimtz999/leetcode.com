@@ -2,15 +2,7 @@ class Solution:
     def largestInteger(self, nums: List[int], k: int) -> int:
       
         def find_unique_boundary_value(position: int) -> int:
-            """
-            Check if the value at given position is unique in the array.
-          
-            Args:
-                position: Index position to check
-              
-            Returns:
-                The value at position if it's unique, otherwise -1
-            """
+
             # Check if this value appears elsewhere in the array
             for index, value in enumerate(nums):
                 if index != position and value == nums[position]:
