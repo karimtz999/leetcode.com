@@ -1,15 +1,5 @@
 class Solution:
     def largestInteger(self, nums: List[int], k: int) -> int:
-        """
-        Find the largest integer based on position k and uniqueness constraints.
-      
-        Args:
-            nums: List of integers
-            k: Position parameter that determines the algorithm behavior
-          
-        Returns:
-            The largest valid integer based on the constraints, or -1 if none exists
-        """
       
         def find_unique_boundary_value(position: int) -> int:
             """
