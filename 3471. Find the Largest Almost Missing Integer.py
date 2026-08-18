@@ -13,7 +13,6 @@ class Solution:
         if k == 1:
             from collections import Counter
             frequency_map = Counter(nums)
-            # Find all values with frequency 1 and return the maximum
             unique_values = (value for value, count in frequency_map.items() if count == 1)
             return max(unique_values, default=-1)
 
