@@ -9,7 +9,6 @@ class Solution:
                     return -1  # Value is not unique
             return nums[position]  # Value is unique, return it
       
-        # Special case 1: When k = 1, find the maximum value that appears exactly once
         if k == 1:
             from collections import Counter
             frequency_map = Counter(nums)
