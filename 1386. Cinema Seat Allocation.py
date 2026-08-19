@@ -13,9 +13,10 @@ public:
             rowReservations[row] |= 1 << (10 - seatNumber);
 
         }
+        
       
         // Define masks for three possible 4-seat group positions
-        
+
         // Left group: seats 2-5 (0b0111100000)
         // Right group: seats 6-9 (0b0000011110)
         // Middle group: seats 4-7 (0b0001111000)
