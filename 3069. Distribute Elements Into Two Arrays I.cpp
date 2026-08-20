@@ -2,6 +2,7 @@ class Solution {
 public:
     vector<int> resultArray(vector<int>& nums) {
         int n = nums.size();
+        
       
         // Initialize first array with the first element
         vector<int> firstArray = {nums[0]};
