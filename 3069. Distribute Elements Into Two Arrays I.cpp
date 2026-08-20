@@ -6,7 +6,8 @@ public:
       
         // Initialize first array with the first element
         vector<int> firstArray = {nums[0]};
-      
+
+        
         // Initialize second array with the second element
         vector<int> secondArray = {nums[1]};
       
