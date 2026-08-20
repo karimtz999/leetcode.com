@@ -15,6 +15,7 @@ public:
         
         for (int i = 2; i < n; ++i) {
             // Compare the last elements of both arrays
+            
             if (firstArray.back() > secondArray.back()) {
                 // If last element of firstArray is greater, add current element to firstArray
                 firstArray.push_back(nums[i]);
