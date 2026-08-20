@@ -10,7 +10,6 @@ public:
         vector<int> secondArray = {nums[1]};
       
         // Process remaining elements starting from index 2
-        
         for (int i = 2; i < n; ++i) {
             // Compare the last elements of both arrays
             
