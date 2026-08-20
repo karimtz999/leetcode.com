@@ -21,6 +21,7 @@ public:
                 secondArray.push_back(nums[i]);
             }
         }
+        
       
         // Append all elements from secondArray to the end of firstArray
         firstArray.insert(firstArray.end(), secondArray.begin(), secondArray.end());
