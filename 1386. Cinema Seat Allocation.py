@@ -11,7 +11,6 @@ public:
             int row = reservation[0];
             int seatNumber = reservation[1];
             rowReservations[row] |= 1 << (10 - seatNumber);
-
         }
 
         // Define masks for three possible 4-seat group positions
