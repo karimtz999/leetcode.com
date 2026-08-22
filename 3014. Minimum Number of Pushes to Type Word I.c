@@ -10,6 +10,7 @@ int minimumPushes(const char *word) {
     int ans = 0;
     int count[26] = {0};
 
+    
     // Count frequency of each letter
     for (int i = 0; word[i] != '\0'; i++) {
         count[word[i] - 'a']++;
