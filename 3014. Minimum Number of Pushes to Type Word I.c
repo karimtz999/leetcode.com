@@ -15,7 +15,6 @@ int minimumPushes(const char *word) {
     for (int i = 0; word[i] != '\0'; i++) {
         count[word[i] - 'a']++;
     }
-
     // Sort frequencies in descending order
     qsort(count, 26, sizeof(int), cmp);
     // Calculate pushes
