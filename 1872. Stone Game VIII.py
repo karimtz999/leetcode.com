@@ -11,7 +11,6 @@ class Solution:
                 return prefix_sums[-1]
             skip_current = calculate_max_score_difference(current_index + 1)
             # Option 2: Take stones from 0 to current_index (score = prefix_sums[current_index])
-
             take_current = prefix_sums[current_index] - calculate_max_score_difference(current_index + 1)
           
             # Return the maximum score difference we can achieve
