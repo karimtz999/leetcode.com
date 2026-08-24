@@ -13,5 +13,4 @@ class Solution:
             take_current = prefix_sums[current_index] - calculate_max_score_difference(current_index + 1)
             return max(skip_current, take_current)
       
-        # Start from index 1 (at least 2 stones must be taken initially)
         return calculate_max_score_difference(1)
