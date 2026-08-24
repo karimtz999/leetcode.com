@@ -7,16 +7,6 @@ class Solution:
         prefix_sums = list(accumulate(stones))
         @cache
         def calculate_max_score_difference(current_index: int) -> int:
-            """
-            Calculate the maximum score difference the current player can achieve
-            starting from current_index.
-          
-            Args:
-                current_index: The index from which the current player can choose
-          
-            Returns:
-                Maximum score difference (current player score - opponent score)
-            """
 
             if current_index >= len(stones) - 1:
                 return prefix_sums[-1]
