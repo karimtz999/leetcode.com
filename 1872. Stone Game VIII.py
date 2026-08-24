@@ -17,8 +17,7 @@ class Solution:
             Returns:
                 Maximum score difference (current player score - opponent score)
             """
-            # Base case: if we're at or past the second-to-last stone,
-            # the only option is to take all remaining stones
+
             if current_index >= len(stones) - 1:
                 return prefix_sums[-1]
           
