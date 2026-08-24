@@ -12,5 +12,4 @@ class Solution:
             skip_current = calculate_max_score_difference(current_index + 1)
             take_current = prefix_sums[current_index] - calculate_max_score_difference(current_index + 1)
             return max(skip_current, take_current)
-      
         return calculate_max_score_difference(1)
