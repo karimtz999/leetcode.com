@@ -9,9 +9,6 @@ class Solution:
         def calculate_max_score_difference(current_index: int) -> int:
             if current_index >= len(stones) - 1:
                 return prefix_sums[-1]
-          
-            # The current player has two choices:
-            # Option 1: Skip this position and let the decision move to next index
             skip_current = calculate_max_score_difference(current_index + 1)
           
             # Option 2: Take stones from 0 to current_index (score = prefix_sums[current_index])
