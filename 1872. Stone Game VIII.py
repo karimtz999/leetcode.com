@@ -4,8 +4,7 @@ from itertools import accumulate
 
 class Solution:
     def stoneGameVIII(self, stones: List[int]) -> int:
-        # Calculate prefix sums for quick range sum calculation
-        # prefix_sums[i] represents sum of stones[0] to stones[i]
+
         prefix_sums = list(accumulate(stones))
       
         @cache
