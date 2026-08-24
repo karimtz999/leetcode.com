@@ -4,7 +4,6 @@ from itertools import accumulate
 
 class Solution:
     def stoneGameVIII(self, stones: List[int]) -> int:
-
         prefix_sums = list(accumulate(stones))
       
         @cache
