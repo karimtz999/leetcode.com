@@ -1,5 +1,6 @@
 class Solution {
 public:
+    
     int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
         // Map to store reserved seats for each row
         // Key: row number, Value: bitmask representing reserved seats
