@@ -4,7 +4,8 @@ public:
         // Map to store reserved seats for each row
         // Key: row number, Value: bitmask representing reserved seats
         unordered_map<int, int> rowReservations;
-      
+
+
         // Build bitmask for each row with reserved seats
         // Bit position represents seat (10 - seatNumber) to align with mask checking
         for (auto& reservation : reservedSeats) {
