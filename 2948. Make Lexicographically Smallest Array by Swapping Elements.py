@@ -4,7 +4,8 @@ class Solution:
       
         # Create pairs of (value, original_index) and sort by value
         sorted_with_indices = sorted(zip(nums, range(n)))
-      
+
+        
         # Initialize result array
         result = [0] * n
       
